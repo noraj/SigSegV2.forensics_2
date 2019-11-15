@@ -66,6 +66,23 @@ And retrieve it on your CTF machine:
 $ wget http://192.168.1.94:1337/openSUSELeap151.zip
 ~~~
 
+Put the profile in any directory.
+Then search the profile name:
+
+~~~
+$ mkdir plugins
+$ mv openSUSELeap151.zip plugins
+$ volatility --plugins=plugins/ --info | grep openSUSELeap151
+Volatility Foundation Volatility Framework 2.6.1
+LinuxopenSUSELeap151x64 - A Profile for Linux openSUSELeap151 x64
+~~~
+
+Specify it in volatility options for each module you want to run, for example:
+
+~~~
+$ volatility -f chall.raw --plugins=plugins/ --profile=LinuxopenSUSELeap151x64 pslist
+~~~
+
 
 [1]:https://github.com/volatilityfoundation/volatility/wiki/Linux#creating-a-new-profile
 [2]:https://github.com/volatilityfoundation/volatility/wiki/Linux#creating-vtypes
