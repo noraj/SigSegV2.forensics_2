@@ -1,3 +1,7 @@
+Utiliser l'option plugins en 1er et ressayer cf. https://github.com/volatilityfoundation/volatility/issues/666
+
+---
+
 ~~~
 openSUSE Leap 15.1
 4.12.14-lp151.28.32-default (4.12.14-lp151.28.32.1)
