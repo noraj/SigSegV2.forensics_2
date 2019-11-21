@@ -33,6 +33,7 @@ author: [noraj](https://pwn.by/noraj/)
 ### Hints
 
 - Hint1: create volatility profile
+- Hint2: share the volatility profile
 
 ## Integration
 
