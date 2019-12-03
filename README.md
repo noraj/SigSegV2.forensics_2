@@ -184,7 +184,7 @@ irb(main):006:0> 'btrfsrw,relatime'.flag
 
 #### 7 - UNIX socket
 
-What is the service name/pid of the process using UNIX socket 20854?
+What is the service name/pid of the process using UNIX socket 18707?
 
 ```
 $ volatility --plugins=plugins/ --profile=LinuxopenSUSELeap151x64 -f chall.raw linux_netstat | grep 18707
@@ -366,6 +366,21 @@ $ volatility -f chall.raw --plugins=plugins/ --profile=LinuxopenSUSELeap151x64 p
 [3]:https://download.opensuse.org/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-x86_64.iso
 [4]:https://download.opensuse.org/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-x86_64.iso.torrent
 [5]:https://github.com/volatilityfoundation/volatility/wiki/Linux#making-the-profile
+
+## SigSegV2
+
+A forensics challenge that was available during SigSegV2 CTF (2019).
+
+- Q1: 15 teams on 36 flaged this question.
+- Q2: 19 teams on 36 flaged this question.
+- Q3: 14 teams on 36 flaged this question.
+- Q4: 16 teams on 36 flaged this question.
+- Q5: 15 teams on 36 flaged this question.
+- Q6: 15 teams on 36 flaged this question.
+- Q7: 15 teams on 36 flaged this question.
+- Q8: 15 teams on 36 flaged this question.
+- Q9: 11 teams on 36 flaged this question.
+- Q10: 15 teams on 36 flaged this question.
 
 ---
 
