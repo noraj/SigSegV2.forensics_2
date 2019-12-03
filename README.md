@@ -15,7 +15,7 @@ Information displayed for CTF players:
 
 ### Description
 
-Attach the memory dump.
+Attach the memory dump. (https://github.com/noraj/SigSegV2.forensics_2/releases/download/v1.0/chall.raw)
 
 ```
 Information about the memory dump:
